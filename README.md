@@ -18,9 +18,10 @@
 
 ## ✅ Features
 
-Here’s what `gws_forms` brings tools to generate interactive form or project dashboards
-
-Whether you're building survey tools, diagnostic forms, project trackers, or interactive dashboards — `gws_forms` gives you the building blocks to do it quickly and efficiently.
+Gencovery brick to build and deploy interactive survey/form dashboards in Constellab, from either an Excel template or an interactive builder.
+- Convert an Excel questionnaire (sections, questions, response types, allowed values, min/max, multiselect) into a structured JSON question set with the `Excel Form File to Json Dict` task
+- Interactively author a questionnaire from scratch with the `Forms creation dashboard`, a Streamlit app for defining sections, questions, response types and validation rules, with draft save/load
+- Deploy a fillable, respondent-facing survey with the `Forms dashboard`, a Streamlit app that renders the question set (grouped by section), validates required answers, supports email-based session verification, saves each submission, and optionally displays aggregated results
 
 ## 📄 Documentation
 
